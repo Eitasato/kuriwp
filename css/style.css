@@ -1,0 +1,11 @@
+
+#globalnav .nav-link{
+  font-size: 20px;
+}
+#globalnav ul{
+  max-width: 1024px;
+}
+
+.mainimg{
+  margin-bottom: 58px;
+}
