@@ -6,6 +6,75 @@
   max-width: 1024px;
 }
 
+#main{
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+}
+
+#main .topimg{
+  margin-top: 56px;
+}
+
+#side{
+  max-width: 392px;
+  /*max-width: 240px;*/
+  padding: 0px 76px 0px 76px;
+}
+
+#side h3{
+  margin-top: 24px;
+}
+
+#side .profile_img{
+  margin: auto;
+  margin-top: 56px;
+}
+#side img{
+  border-radius: 50%;
+}
+
+
+
+.content{
+  /*max-width: 632px;*/
+  max-width: 784px;
+}
+
+.content p{
+  padding: 10px 16px 10px 16px;
+}
+
+.content h2{
+  padding-left:16px;
+  padding-right:16px;
+  margin-top: 16px;
+}
+.content h3{
+  padding-left:16px;
+  padding-right:16px;
+  margin-top: 16px;
+}
+
 .mainimg{
   margin-bottom: 58px;
+}
+
+.sub_img{
+  display: flex;
+  justify-content: space-between;
+  padding-left:110px;
+  padding-right:110px;
+}
+
+.recommend{
+  display: flex;
+  justify-content: space-between;
+  padding-left:100px;
+  padding-right:100px;
+  margin-bottom: 32px;
+}
+
+.col{
+  margin-top: 54px;
 }
