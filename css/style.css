@@ -33,8 +33,49 @@
 #side img{
   border-radius: 50%;
 }
+.recentry li{
+  list-style: none;
+  border-bottom: solid 1px #c7b299;
+  padding-top: 6px;
+}
 
+.recentry ul{
+  padding-left: 0px;
+}
 
+.tag ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tag ul li {
+  display: inline-block;
+  margin: 0 .3em .3em 0;
+  padding: 0;
+}
+.tag ul li a{
+  display: inline-block;
+  max-width: 100px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 1em;
+  background-color: #c7b299;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  white-space: nowrap;/*空白の取り扱い方。詰めるor改行などが指定できる。nowrapは「詰める＆改行しない」という指定*/
+  text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
+  overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  transition: .2s;/*アニメーションの速度指定*/
+}
+
+.tag ul li a:hover {
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  color: #fff;
+}
 
 .content{
   /*max-width: 632px;*/
@@ -56,7 +97,26 @@
   margin-top: 16px;
 }
 
-.mainimg{
+.profile{
+  max-width: 720px;
+  margin: auto;
+}
+
+.profile p{
+  white-space: pre-wrap;
+}
+
+.profile h3,h4{
+  padding-top: 24px
+}
+.profile_img{
+  margin-bottom: 32px;
+}
+.prof-header{
+  border-bottom:1px solid #c7b299;
+}
+
+.mainimg {
   margin-bottom: 58px;
 }
 
@@ -77,4 +137,8 @@
 
 .col{
   margin-top: 54px;
+}
+
+footer{
+  margin-top: 56px;
 }
