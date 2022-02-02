@@ -191,3 +191,35 @@
 footer{
   margin-top: 56px;
 }
+
+@media screen and (min-width:560px) and (max-width:959px){
+/*画面サイズが560〜959pxまではこのレイアウトを適用（タブレット）*/
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:559px){
+  /*画面サイズが320〜559pxまではここのレイアウトを適用（スマホ）*/
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .news-img{
+    max-width: 100%;
+    height: auto;
+  }
+  .row{
+    display: block!important;
+  }
+
+/*プロフィールページの左右余白*/
+  .profile{
+    margin: 0px 16px;
+  }
+
+
+}
