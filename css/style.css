@@ -119,7 +119,6 @@
   max-width: 608px;
   margin-left: 76px;
 }
-
 .content-area{
   max-width: 608px;
   margin-left: 76px;
@@ -204,10 +203,94 @@ img{
 
 @media screen and (min-width:320px) and (max-width:559px){
   /*画面サイズが320〜559pxまではここのレイアウトを適用（スマホ）*/
+  #main{
+    display: block;
+  }
+  #main .topimg{
+    margin-top: 24px;
+  }
+
+   /*コンテンツページ・サイドイバーの設定*/
+  #side{
+    max-width: 100%;
+    /*max-width: 240px;*/
+    margin: auto;
+    padding: 0px 16px 0px 16px;
+    margin-top: 40px;
+  }
+
   img{
     max-width: 100%;
     height: auto;
   }
+
+ /*コンテンツページ・コンテンツエリアのマージン*/
+  .content{
+    margin:0px 16px 0px 16px;
+  }
+ /*コンテンツページ・コンテンツエリアの横幅*/
+  .content-area{
+    max-width: 100%;
+    margin:auto;
+  }
+
+  /*コンテンツページ下部のサブイメージ*/
+  .sub_img{
+    display: block;
+    max-width: 90%;
+    height: auto;
+  /* justify-content: space-between;*/
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+ /*コンテンツページ下部のレコメンドイメージ*/
+  .recommend{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    /*justify-content: space-between;*/
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom: 16px;
+  }
+
+/*ニュース一覧ページ全体スタイル*/
+  #news{
+    max-width: 100%;
+    margin: auto;
+    margin:0px 16px 0px 16px;
+  }
+
+  /*ニュース一覧ページ、フレックス解除*/
+  .news-content{
+    display: block;
+  }
+  .news-img {
+    margin: 16px 0px 16px 0px;
+  }
+  /*ニュース一覧ページ、サマリーのスタイル*/
+  .news-summary{
+    max-width: 100%;
+    max-height: 240px;
+    margin: 16px 0px 32px 0px;
+    padding: 0px 16px 0px 16px;
+    text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
+    overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
+  }
+
+
+  /*ニュースページ、コンテンツエリアの横幅*/
+  .news-area{
+    max-width: 100%;
+    margin:auto;
+  }
+  /*ニュースページ、サイドコンテンツの横幅*/
+  .side-content {
+      width: 100%;
+  }
+
+  /*ニュースページ、画像の横幅をディスプレイに合わせる*/
   .news-img{
     max-width: 100%;
     height: auto;
