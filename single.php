@@ -74,39 +74,7 @@ if($my_query-> have_posts()):
     </article>
 <!--/メインエリア-->
 <!--サイドバー-->
-<div id="side">
-  <div class="profile_img" style="text-align: center">
-    <img src="images/Side_Profile.jpg" width="235.2" height="235.2" alt="">
-  </div>
-
-  <h3>栗谷さと子</h3>
-  <p>1988年福井県生まれ。神奈川県出身。
-2007年、長野県松本市に移住し、信州大学理学部で生物科学を専攻。
-動植物の観察スケッチが得意だった。
-卒業後の現在も松本に残り、カンデラゲストハウスを営みつつ、イラストレーターとしても活動。</p>
-  <div class="tag">
-    <h3>Tag</h3>
-    <ul>
-      <li><a href="#">似顔絵</a></li>
-      <li><a href="#">動物</a></li>
-      <li><a href="#">展示</a></li>
-      <li><a href="#">建物</a></li>
-      <li><a href="#">旅</a></li>
-    </ul>
-  </div>
-
-  <div class="recentry">
-    <h3>Recentry</h3>
-    <ul>
-      <li>思い出の風景</li>
-      <li>結婚式似顔絵</li>
-      <li>梅月菓子舗</li>
-      <li>MOTOツーリング連載</li>
-      <li>M'sLIFE表紙絵</li>
-    </ul>
-  </div>
-</div>
+<?php get_sidebar(); ?>
 <!--/サイドバー-->
 </main>
-
 <?php get_footer(); ?>
