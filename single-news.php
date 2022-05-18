@@ -18,31 +18,7 @@
   </article>
 <!--/メインエリア-->
 <!--サイドバー-->
-<div id="side">
-<div class="side-content">
-<div class="recentry">
-  <h4 class="top-heading">個展のお知らせ</h4>
-  <ul>
-    <li>思い出の風景</li>
-    <li>結婚式似顔絵</li>
-    <li>梅月菓子舗</li>
-    <li>MOTOツーリング連載</li>
-    <li>M'sLIFE表紙絵</li>
-  </ul>
-</div>
-<div class="recentry">
-  <h4>過去のお知らせ</h4>
-  <ul>
-    <li>思い出の風景</li>
-    <li>結婚式似顔絵</li>
-    <li>梅月菓子舗</li>
-    <li>MOTOツーリング連載</li>
-    <li>M'sLIFE表紙絵</li>
-  </ul>
-</div>
-
-</div>
-</div>
+<?php get_sidebar('news'); ?>
 <!--/サイドバー-->
 </main>
 <?php get_footer(); ?>
