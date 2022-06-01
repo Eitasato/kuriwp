@@ -15,3 +15,5 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 	//エディタ用スタイルシート
 	add_editor_style();
 ?>
+
+<?php add_theme_support('post-thumbnails'); ?>
