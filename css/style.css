@@ -17,6 +17,10 @@
   margin-top: 56px;
 }
 
+.col-md-4{
+	margin-top:15px;
+}
+
 /*サイドバー*/
 #side{
   max-width: 392px;
@@ -194,10 +198,10 @@ footer{
 @media screen and (min-width:560px) and (max-width:959px){
 /*画面サイズが560〜959pxまではこのレイアウトを適用（タブレット）*/
 
-img{
+/*img{
   max-width: 100%;
   height: auto;
-}
+}*/
 
 }
 
@@ -303,6 +307,4 @@ img{
   .profile{
     margin: 0px 16px;
   }
-
-
 }

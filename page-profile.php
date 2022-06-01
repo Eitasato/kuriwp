@@ -2,7 +2,7 @@
 
 <main id="profile">
   <div class="profile-img" style="text-align:center">
-      <img src="images/Profile_top.jpg" width="720" height="445" alt="">
+      <img src="<?php  echo get_template_directory_uri() ?>/images/Profile_top.jpg" width="720" height="445" alt="">
   </div>
     <article class="profile">
       <h3 class="prof-header">栗谷さと子</h3>

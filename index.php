@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <!--メインイメージ-->
-  <div class="mainimg" style="text-align:center">
+<!-- <div class="mainimg" style="text-align:center">
       <img src="images/baigetsu.jpg" width="720" height="445" alt="">
-  </div>
+  </div>-->
 <!--/メインイメージ-->
 <!--メインエリア-->
 <div id="wrapper">
@@ -15,10 +15,10 @@
       <?php $posts = get_posts($args); ?>
       <?php foreach ($posts as $post) : ?>
         <?php setup_postdata($post); ?>
-        <!--ここから再開 -->
-      <div class="col">
+		<!--ここから再開 -->
+		<div class="col-md-4">
         <a href="<?php the_permalink(); ?>">
-        <img src="<?php the_post_thumbnail_url('full'); ?>" width="281" height="281" alt="">
+			<img src="<?php the_post_thumbnail_url('full'); ?>"  alt=""></a>
       </div>
       <?php endforeach; ?>
       <!--画像のアーカイブを表示（まずはbootstrapで）-->
