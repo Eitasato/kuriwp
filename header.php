@@ -18,7 +18,7 @@
     <!--/ロゴ-->
     <!--グローバルメニュー-->
 <div id="globalnav">
-<nav class="navbar navbar-expand navbar-light p-3" style="background-color: #c7b299;">
+<nav class="navbar navbar-expand navbar-light p-2" style="background-color: #c7b299;">
   <!--ブランド名-->
   <!--<a class="navbar-brand" href="#">Navbar</a>-->
   <!--トグルボタン-->
