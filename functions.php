@@ -17,3 +17,16 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 ?>
 
 <?php add_theme_support('post-thumbnails'); ?>
+
+<?php
+function twpp_enqueue_scripts() {
+  wp_enqueue_script(
+    'main-script',
+    get_template_directory_uri() . '/js/script.js',
+    array(),
+    false,
+    true
+  );
+}
+add_action( 'wp_enqueue_scripts', 'twpp_enqueue_scripts' );
+?>
