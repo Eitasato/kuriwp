@@ -195,6 +195,35 @@ footer{
   margin-top: 56px;
 }
 
+/*お問い合わせフォーム*/
+.form{
+	max-width:100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.wpcf7{
+ display:block;
+  text-align: center;
+}
+
+/*タイトルをセンターに*/
+.form h2{
+	text-align:center;
+	margin-top:16px;
+}
+
+/*ボタンのサイズと色調整*/
+.wpcf7-submit{
+
+background-color:#c7b299;
+padding: 1rem 4rem;
+text-align: center;
+	
+}
+
+
+
 /*トップページスライダー用スタイル*/
 * {
   margin: 0;

@@ -9,16 +9,16 @@
     <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="http://kuri.local/profile/">Profile <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/profile/">Profile <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://kuri.local/works/">Works</a>
+          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/works/">Works</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://kuri.local/news/">News</a>
+          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/news/">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
+          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/contact/">Contact</a>
         </li>
       </ul>
     </div>
