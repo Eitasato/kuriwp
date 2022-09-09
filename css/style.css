@@ -1,3 +1,9 @@
+/*タグのスタイル指定*/
+
+a{
+	color:gray;
+}
+
 /*グローバルナビ*/
 #globalnav .nav-link{
   font-size: 20px;
@@ -15,6 +21,10 @@
 
 #main .topimg{
   margin-top: 56px;
+}
+
+.container{
+	overflow:hidden;
 }
 
 .col-md-4{
@@ -98,6 +108,10 @@
 }
 
 /*コンテンツエリアのスタイル*/
+.info{
+	font-size:18px;
+	color:#8E8E8E;
+}
 .content{
   /*max-width: 632px;*/
   max-width: 784px;
@@ -138,8 +152,12 @@
   white-space: pre-wrap;
 }
 
-.profile_img{
-  margin-bottom: 32px;
+.profile-img{
+	width: 600px;
+	height: calc(600px * 0.5625);
+	margin: auto;
+	margin-top:15px;
+	overflow:hidden;
 }
 .prof-header{
   padding-top: 24px;
@@ -197,14 +215,9 @@ footer{
 
 /*お問い合わせフォーム*/
 .form{
-	max-width:100%;
+	width:100%;
 	margin-left: auto;
-    margin-right: auto;
-}
-
-.wpcf7{
- display:block;
-  text-align: center;
+	margin-right: auto;
 }
 
 /*タイトルをセンターに*/
@@ -213,26 +226,35 @@ footer{
 	margin-top:16px;
 }
 
+.wpcf7-form.init{
+	text-align:center;
+}
+
 /*ボタンのサイズと色調整*/
 .wpcf7-submit{
-
-background-color:#c7b299;
-padding: 1rem 4rem;
-text-align: center;
+	background-color:#c7b299;
+	padding: 1rem 4rem;
+	text-align: center;
 	
 }
 
+/*隠れローダーをブロック要素にしてボタンを中央に*/
+.wpcf7-spinner{
+	display:block;
+}
 
 
 /*トップページスライダー用スタイル*/
-* {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
+
 .main-slider {
-  overflow: hidden;
+	overflow: hidden;
+	margin-top:15px;
 }
 .carousel {
   width: 600px;

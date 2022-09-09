@@ -13,6 +13,8 @@
 	</div>
       <section>
         <h2><?php the_title(); ?></h2>
+		  <span class="info"><?php echo get_post_meta($post->ID, 'year_of_paint', true); ?>
+		  <?php echo get_post_meta($post->ID, 'client', true); ?></span>
         <?php the_content(); ?>
 <!--      <div class="sub_img">
               <img src="images/sub1.jpg" width="172" height="172" alt="">

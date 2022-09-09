@@ -8,8 +8,8 @@
     </button>-->
     <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/profile/">Profile <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/profile/">Profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo esc_url( home_url() ); ?>/works/">Works</a>
