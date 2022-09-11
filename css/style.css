@@ -6,11 +6,15 @@ a{
 
 /*グローバルナビ*/
 #globalnav .nav-link{
-  font-size: 20px;
+  font-size: 18px;
 }
 #globalnav ul{
   max-width: 1024px;
 }
+.logo img{
+	width:169px;
+	height:auto;
+	}
 
 /*メインエリア*/
 #main{
@@ -423,6 +427,16 @@ button {
     margin-top: 24px;
   }
 
+.logo img{
+	width:169px;
+	height:auto;
+	}
+
+/*グローバルナビ*/
+#globalnav .nav-link{
+  font-size: 18px;
+}	
+	
    /*コンテンツページ・サイドイバーの設定*/
   #side{
     max-width: 100%;

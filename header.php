@@ -18,7 +18,19 @@
     <!--/ロゴ-->
     <!--グローバルメニュー-->
 <div id="globalnav">
-<nav class="navbar navbar-expand navbar-light p-2" style="background-color: #c7b299;">
+ <!--ユーザーエージェントでSP/PCを判断してパディング調整-->
+<?php
+  $ua=$_SERVER['HTTP_USER_AGENT'];
+  $browser = ((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false));
+    if ($browser == true){
+    $browser = 'sp';
+  }
+?>
+<?php if($browser == 'sp'){ ?>
+	<nav class="navbar navbar-expand navbar-light p-1" style="background-color: #c7b299;">
+<?php }else{ ?>
+		<nav class="navbar navbar-expand navbar-light p-1" style="background-color: #c7b299;">
+<?php } ?>
   <!--ブランド名-->
   <!--<a class="navbar-brand" href="#">Navbar</a>-->
   <!--トグルボタン-->
