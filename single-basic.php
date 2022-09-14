@@ -39,7 +39,7 @@ foreach($tags as $tag){
 $args = array(
 	'tag__in' => $tagID,
 	'post__not_in' => array($post->ID),
-	'posts_per_page' => 6,
+	'posts_per_page' => 3,
 	'ignore_sticky_posts'=>1,
 	'orderby'=>'rand',
 );
