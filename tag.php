@@ -9,7 +9,7 @@
         ?>
 		  <?php if(have_posts()): while(have_posts()):the_post(); ?>
 		 <!--ここから再開 -->
-  		<div class="col-md-4">
+  		<div class="col-md-4 col-sm-6">
           <a href="<?php the_permalink(); ?>">
   			<img src="<?php the_post_thumbnail_url('full'); ?>"  alt=""></a>
         </div>

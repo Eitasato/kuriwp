@@ -34,7 +34,7 @@
       <?php $posts = get_posts($args); ?>
       <?php foreach ($posts as $post) : ?>
         <?php setup_postdata($post); ?>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
         <a href="<?php the_permalink(); ?>">
 			<img src="<?php the_post_thumbnail_url('full'); ?>"  alt=""></a>
       </div>
