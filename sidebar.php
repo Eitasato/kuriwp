@@ -3,11 +3,11 @@
     <img src="<?php  echo get_template_directory_uri() ?>/images/Side_Profile.jpg" width="235.2" height="235.2" alt="">
   </div>
 
-  <h3>栗谷さと子</h3>
-  <p>1988年福井県生まれ。神奈川県出身。
-2007年、長野県松本市に移住し、信州大学理学部で生物科学を専攻。
-動植物の観察スケッチが得意だった。
-卒業後の現在も松本に残り、カンデラゲストハウスを営みつつ、イラストレーターとしても活動。</p>
+  <h3>Kuriya Satoko</h3>
+  <p>Japanese artist.
+Born in 1988.
+Live in New Zealand since 2022.
+Love nature, travel, creativity.</p>
   <div class="tag">
 	  <h3>Tag</h3>
 	  <ul>

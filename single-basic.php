@@ -22,8 +22,8 @@
       </div>-->
     </section>
 <!--レコメンドエリア-->
-    <section>
-        <h3>Reccomend</h3>
+ <section>
+
 <!--同一タグの記事一覧-->
 <?php
 //記事の投稿タグを取得する
@@ -35,7 +35,6 @@ $tagID = array();
 foreach($tags as $tag){
 	array_push($tagID, $tag -> term_id);
 }
-
 $args = array(
 	'tag__in' => $tagID,
 	'post__not_in' => array($post->ID),
@@ -48,11 +47,12 @@ $my_query = new WP_Query($args);
 
 if($my_query-> have_posts()):
 ?>
+<h3>Reccomend</h3>
 <div class="recommend">
 	<?php while($my_query->have_posts()): $my_query->the_post(); ?>
 		<div class="cell">
 		<a href="<?php the_permalink(); ?>">
-			<?php if(has_post_thumbnail()): the_post_thumbnail('thumbnail');
+			<?php if(has_post_thumbnail()): the_post_thumbnail('shop_thumbnail');
 				else: ?>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimg-125.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
@@ -60,7 +60,6 @@ if($my_query-> have_posts()):
 				<div class="post-title">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				</div>
-		</a>
 	</div>
 	<?php endwhile; ?>
 </div>
