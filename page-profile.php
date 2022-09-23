@@ -17,7 +17,7 @@
 
 2022年、ニュージーランドへ移住。小さな奇跡の積み重ねが導く予想外な人生の展開を楽しもうと思っている。
 </p>
-    <h3 class="prof-header">KURIYA SATOKO ( KURI )</h3>
+    <h3 class="prof-header">KURIYA Satoko</h3>
     <p>I was born in Japan in 1988.
 
 My major in university was biology, so I am good at observing creatures carefully and sketching them.
@@ -31,7 +31,7 @@ I love trekking, cycling and traveling. Drawing visual journals to capture thing
 I moved from Japan to New Zealand in 2022. I want to enjoy the unexpected life led by heaps of little miracles.
 </p>
 
-        <h4 class="prof-header">連載</h4>
+        <h4 class="prof-header">主な仕事内容</h4>
 
         <ul>
 			<li>「M’s Life（信濃毎日新聞松本専売所）」表紙絵連載（2016～2021年）</li>
