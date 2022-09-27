@@ -21,8 +21,8 @@ Love nature, travel, creativity.</p>
 		  ?>
 	  </ul>
   </div>
-  <div class="recentry">
-    <h3>Recentry</h3>
+  <div class="recently">
+    <h3>Recently</h3>
 	  <ul>
 		  <?php $args = array('posts_per_page' => 5 ); // 表示件数の指定。get_postsで使うパラメーターの配列をここで作っている。
 		  $posts = get_posts( $args );

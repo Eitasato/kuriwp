@@ -47,7 +47,7 @@ $my_query = new WP_Query($args);
 
 if($my_query-> have_posts()):
 ?>
-<h3>Reccomend</h3>
+<h3>Recommend</h3>
 <div class="recommend">
 	<?php while($my_query->have_posts()): $my_query->the_post(); ?>
 		<div class="cell">
