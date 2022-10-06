@@ -225,7 +225,10 @@ a{
 footer{
   margin-top: 56px;
 }
-
+.copyright{
+	display:block;
+	text-align:center;
+}
 /*お問い合わせフォーム*/
 .form{
 	width:100%;

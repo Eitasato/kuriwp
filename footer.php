@@ -23,6 +23,9 @@
       </ul>
     </div>
   </nav>
+  <div class="copyright" style="background-color: #c7b299;">
+ <small>©Kuriya Satoko</small>
+</div>
 </footer>
 <?php wp_footer(); ?>
 <script
