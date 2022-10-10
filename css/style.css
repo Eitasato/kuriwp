@@ -69,7 +69,7 @@ a{
   margin-top: 0px !important;
 }
 
-/*コンテンツ・ニュース記事のサイドバーrecently*/
+/*コンテンツ・ニュース記事のサイドバーRecently*/
 .recently li{
   list-style: none;
   border-bottom: solid 1px #c7b299;
@@ -167,6 +167,10 @@ a{
 	margin-top:15px;
 	overflow:hidden;
 }
+.profile-img img{
+	height: auto;
+    max-width: 100%;
+}
 .prof-header{
   padding-top: 24px;
   border-bottom:1px solid #c7b299;
@@ -192,12 +196,17 @@ a{
   margin-bottom: 32px;
 }
 
+.cell{
+	max-width:160px;
+}
 .cell img{
 	width:160px;
 	height:160px;
 	object-fit:cover;
 }
-
+.post-title{
+	font-size:14px;
+}	
 .col{
   margin-top: 54px;
 }
@@ -229,6 +238,7 @@ footer{
 	display:block;
 	text-align:center;
 }
+
 /*お問い合わせフォーム*/
 .form{
 	width:100%;
@@ -251,7 +261,7 @@ footer{
 	background-color:#c7b299;
 	padding: 1rem 4rem;
 	text-align: center;
-
+	
 }
 
 /*隠れローダーをブロック要素にしてボタンを中央に*/
@@ -421,7 +431,7 @@ button {
 }
 
 @media screen and (min-width:1200px) {
-
+	
 	.container img{
 		height:262.5px;
 			width:350px;
@@ -439,34 +449,50 @@ button {
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
-
 	.container img{
 		height:157.5px;
 		width:210px;
 		object-fit:cover;
 	}
+	.cell{
+	max-width:140px;
+	}
+	.cell img{
+		width:140px;
+		height:140px;
+		object-fit:cover;
+	}
+	#side{
+		width:38%;
+		padding-right:32px;
+		padding-left:32px;
+	}
 }
 
 @media screen and (min-width:576px) and (max-width:767px){
-
 	.container img{
 		height:180px;
 		width:240px;
 		object-fit:cover;
 	}
-
+	.cell{
+	max-width:120px;
+	}
+	.cell img{
+		width:120px;
+		height:120px;
+		object-fit:cover;
+	}
    #news{
     max-width: 100%;
     margin: auto;
     margin:0px 16px 0px 16px;
   }
-
 	.news-img img{
 		max-width: 90%;
 		max-height: auto;
 		margin: 16px 32px 16px 32px;
 	}
-
 	.news-summary {
     width: 50%;
     max-height: auto;
@@ -475,6 +501,11 @@ button {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+	#side{
+		width:34%;
+		padding-right:32px;
+		padding-left:32px;
+	}
 }
 
 
@@ -505,8 +536,8 @@ button {
 /*グローバルナビ*/
 #globalnav .nav-link{
   font-size: 18px;
-}
-
+}	
+	
    /*コンテンツページ・サイドイバーの設定*/
   #side{
     max-width: 100%;
@@ -525,7 +556,7 @@ button {
 		max-height:373.5px;
 		max-width:498px;
 		object-fit:cover;
-	}*/
+	}*/	
 
  /*コンテンツページ・コンテンツエリアのマージン*/
   .content{
@@ -553,6 +584,7 @@ button {
   }
 
 .cell{
+    max-width:100%;
 	margin-bottom: 16px;
 	}
 
@@ -560,7 +592,7 @@ button {
 	width: 100% ;
 	height: auto;
 	}
-
+	
 /*ニュース一覧ページ全体スタイル*/
   #news{
     max-width: 100%;
