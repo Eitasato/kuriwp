@@ -58,7 +58,9 @@ a{
   margin: auto;
 }
 #side img{
-  border-radius: 50%;
+	border-radius: 50%;
+	width: 166px;
+    height: auto;
 }
 
 /*サイドバーのコンテンツ*/
@@ -87,13 +89,13 @@ a{
   list-style: none;
 }
 .tag ul li {
-  display: inline-block;
+  display: block;
   margin: 0 .3em .3em 0;
   padding: 0;
 }
 .tag ul li a{
-  display: inline-block;
-  max-width: 100px;
+  display: block;
+  max-width: 160px;
   height: 28px;
   line-height: 28px;
   padding: 0 1em;
@@ -641,4 +643,11 @@ button {
   .profile{
     margin: 0px 16px;
   }
+ .profile-img {
+	 max-width:100%;
+     height: auto;
+    margin: auto;
+    margin-top: 15px;
+	 padding: 0px 16px 0px 16px; 
+    overflow: hidden;
 }

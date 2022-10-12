@@ -13,7 +13,7 @@
   <header>
     <!--ロゴ-->
     <div class="logo" style="text-align: center">
-    <a href="<?php echo esc_url(home_url());?>"> <img src="<?php echo esc_url(get_theme_file_uri('images/logo1.png')); ?>" width="" height="" alt=""></a>
+    <a href="<?php echo esc_url(home_url());?>"> <img src="<?php echo esc_url(get_theme_file_uri('images/logo2.png')); ?>" width="" height="" alt=""></a>
     </div>
     <!--/ロゴ-->
     <!--グローバルメニュー-->
