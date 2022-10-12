@@ -1,7 +1,6 @@
 <div id="side">
 <div class="side-content">
 <div class="recently">
-  <h4 class="top-heading">個展のお知らせ</h4>
   <h4>過去のお知らせ</h4>
 	<ul>
 	  <?php $args = array('category_name' => 'news', // カテゴリをスラッグで指定する場合
