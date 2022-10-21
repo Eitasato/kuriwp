@@ -10,7 +10,6 @@ $cat_posts = get_posts(array(
 ));
 global $post;
 if($cat_posts): foreach($cat_posts as $post): setup_postdata($post); ?>
-
 <!-- ループはじめ -->
 <div class="news-content">
     <div class="news-img">
@@ -23,7 +22,6 @@ if($cat_posts): foreach($cat_posts as $post): setup_postdata($post); ?>
 	</div>
 	</div>
 <!-- ループおわり -->
-
 <?php endforeach; endif; wp_reset_postdata(); ?>
 </div>
 <?php get_footer(); ?>
