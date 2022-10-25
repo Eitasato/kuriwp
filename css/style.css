@@ -12,7 +12,7 @@ a{
   max-width: 1024px;
 }
 .logo img{
-	width:169px;
+	width: 95px;
 	height:auto;
 	}
 
@@ -41,9 +41,9 @@ a{
 
 /*サイドバー*/
 #side{
-  max-width: 392px;
-  /*max-width: 240px;*/
-  padding: 0px 76px 0px 76px;
+ /* max-width: 392px;*/
+  max-width: 240px;
+  padding: 0px 27px 0px 27px;
     margin-top: 56px;
 }
 
@@ -59,7 +59,7 @@ a{
 }
 #side img{
 	border-radius: 50%;
-	width: 166px;
+	width: 45px;
     height: auto;
 }
 
@@ -95,7 +95,7 @@ a{
 }
 .tag ul li a{
   display: block;
-  max-width: 160px;
+  max-width: 260px;
   height: 28px;
   line-height: 28px;
   padding: 0 1em;
@@ -531,7 +531,7 @@ button {
   }
 
 .logo img{
-	width:169px;
+	width: 95px;
 	height:auto;
 	}
 
