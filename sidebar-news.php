@@ -1,7 +1,7 @@
 <div id="side">
 <div class="side-content">
 <div class="recently">
-  <h4>過去のお知らせ</h4>
+  <h4 class="top-heading">過去のお知らせ</h4>
 	<ul>
 	  <?php $args = array('category_name' => 'news', // カテゴリをスラッグで指定する場合
 						  'posts_per_page' => 5 ); // 表示件数の指定。get_postsで使うパラメーターの配列をここで作っている。

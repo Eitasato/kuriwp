@@ -1,5 +1,4 @@
 /*タグのスタイル指定*/
-
 a{
 	color:gray;
 }
@@ -39,7 +38,66 @@ a{
 	margin-top:15px;
 }
 
-/*サイドバー*/
+/*詳細ページのスタイル（共通）*/
+.content{
+  /*max-width: 632px;*/
+  max-width: 784px;
+}
+.content-area{
+  max-width: 608px;
+  margin-left: 76px;
+}
+.content p{
+  padding: 10px 0px 10px 0px;
+}
+
+.content h2{
+  padding-right:16px;
+  margin-top: 16px;
+}
+.content h3{
+  padding-right:16px;
+  margin-top: 16px;
+}
+/*作品の補足情報*/
+.info{
+	font-size:18px;
+	color:#8E8E8E;
+}
+
+/*詳細ページのメインイメージ*/
+#main .topimg {
+  margin-bottom: 16px;
+}
+/*作品詳細ページのレコメンドイメージ*/
+.recommend{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.cell{
+	max-width:160px;
+}
+.cell img{
+	width:160px;
+	height:160px;
+	object-fit:cover;
+}
+.post-title{
+	font-size:14px;
+}
+.col{
+  margin-top: 54px;
+}
+
+/*ニュース詳細ページの記事エリア*/
+.news-area{
+  max-width: 608px;
+  margin-left: 76px;
+}
+
+
+/*サイドバー全般*/
 #side{
  /* max-width: 392px;*/
   max-width: 240px;
@@ -63,7 +121,7 @@ a{
     height: auto;
 }
 
-/*サイドバーのコンテンツ*/
+/*ニュース記事のサイドバー*/
 .side-content{
   width: 240px;
 }
@@ -71,7 +129,6 @@ a{
   margin-top: 0px !important;
 }
 
-/*コンテンツ・ニュース記事のサイドバーRecently*/
 .recently li{
   list-style: none;
   border-bottom: solid 1px #c7b299;
@@ -82,7 +139,7 @@ a{
   padding-left: 0px;
 }
 
-/*コンテンツ記事のサイドバーのタグ*/
+/*タグ（コンテンツ記事のサイドバー内）*/
 .tag ul {
   margin: 0;
   padding: 0;
@@ -117,41 +174,6 @@ a{
   color: #fff;
 }
 
-/*コンテンツエリアのスタイル*/
-.info{
-	font-size:18px;
-	color:#8E8E8E;
-}
-.content{
-  /*max-width: 632px;*/
-  max-width: 784px;
-}
-
-.content p{
-  padding: 10px 0px 10px 0px;
-}
-
-.content h2{
-/*padding-left:16px;*/
-  padding-right:16px;
-  margin-top: 16px;
-}
-.content h3{
-/* padding-left:16px;*/
-  padding-right:16px;
-  margin-top: 16px;
-}
-
-/*コンテンツエリアのニュース記事部分のスタイル*/
-.news-area{
-  max-width: 608px;
-  margin-left: 76px;
-}
-.content-area{
-  max-width: 608px;
-  margin-left: 76px;
-}
-
 /*プロフィールページのスタイル*/
 .profile{
   max-width: 720px;
@@ -171,46 +193,11 @@ a{
 }
 .profile-img img{
 	height: auto;
-    max-width: 100%;
+  max-width: 100%;
 }
 .prof-header{
   padding-top: 24px;
   border-bottom:1px solid #c7b299;
-}
-
-/*コンテンツページのメインイメージ*/
-.mainimg {
-  margin-bottom: 58px;
-}
-
-/*コンテンツページ下部のサブイメージ*/
-.sub_img{
-  display: flex;
-  justify-content: space-between;
-  padding-left:110px;
-  padding-right:110px;
-}
-
-/*コンテンツページ下部のレコメンドイメージ*/
-.recommend{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 32px;
-}
-
-.cell{
-	max-width:160px;
-}
-.cell img{
-	width:160px;
-	height:160px;
-	object-fit:cover;
-}
-.post-title{
-	font-size:14px;
-}	
-.col{
-  margin-top: 54px;
 }
 
 /*ニュース一覧ページのスタイル*/
@@ -263,14 +250,13 @@ footer{
 	background-color:#c7b299;
 	padding: 1rem 4rem;
 	text-align: center;
-	
+
 }
 
 /*隠れローダーをブロック要素にしてボタンを中央に*/
 .wpcf7-spinner{
 	display:block;
 }
-
 
 /*トップページスライダー用スタイル*/
  *{
@@ -432,8 +418,9 @@ button {
   transform: translate(-70%, -50%)rotate(135deg);
 }
 
+/* レスポンシブデザイン用の指定 */
 @media screen and (min-width:1200px) {
-	
+
 	.container img{
 		height:262.5px;
 			width:350px;
@@ -538,8 +525,8 @@ button {
 /*グローバルナビ*/
 #globalnav .nav-link{
   font-size: 18px;
-}	
-	
+}
+
    /*コンテンツページ・サイドイバーの設定*/
   #side{
     max-width: 100%;
@@ -558,7 +545,7 @@ button {
 		max-height:373.5px;
 		max-width:498px;
 		object-fit:cover;
-	}*/	
+	}*/
 
  /*コンテンツページ・コンテンツエリアのマージン*/
   .content{
@@ -594,7 +581,7 @@ button {
 	width: 100% ;
 	height: auto;
 	}
-	
+
 /*ニュース一覧ページ全体スタイル*/
   #news{
     max-width: 100%;
@@ -648,6 +635,6 @@ button {
      height: auto;
     margin: auto;
     margin-top: 15px;
-	 padding: 0px 16px 0px 16px; 
+	 padding: 0px 16px 0px 16px;
     overflow: hidden;
 }
