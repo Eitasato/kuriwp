@@ -1,6 +1,6 @@
 <div id="side">
 	<div class="profile_img" style="text-align: center">
-		<img src="<?php  echo get_template_directory_uri() ?>/images/Side_Profile.jpg" width="235.2" height="235.2" alt="">
+		<img src="<?php  echo get_template_directory_uri() ?>/images/Side_Profile.jpg" width="" height="" alt="">
 	</div>
   <h3>Kuriya Satoko</h3>
   <p>Japanese artist.

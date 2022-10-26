@@ -1,11 +1,5 @@
 <footer>
   <nav class="navbar navbar-expand navbar-light p-4" style="background-color: #c7b299;">
-    <!--ブランド名-->
-    <!--<a class="navbar-brand" href="#">Navbar</a>-->
-    <!--トグルボタン-->
-    <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>-->
     <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
