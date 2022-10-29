@@ -1,4 +1,6 @@
-/*タグのスタイル指定*/
+/*----------共通パーツ----------*/
+
+/*テキストリンクの色*/
 a{
 	color:gray;
 }
@@ -15,7 +17,17 @@ a{
 	height:auto;
 	}
 
-/*メインエリア*/
+/*Works,Indexのメインエリア*/
+/*Bootstrapのクラスに追加*/
+	.container{
+		overflow:hidden;
+	}
+
+	.col-md-4{
+		margin-top:15px;
+	}
+
+/*作品・ニュース詳細メインエリア*/
 #main{
   max-width: 1024px;
   margin: auto;
@@ -30,15 +42,7 @@ a{
     max-width: 100%;
 }
 
-.container{
-	overflow:hidden;
-}
-
-.col-md-4{
-	margin-top:15px;
-}
-
-/*詳細ページのスタイル（共通）*/
+/*詳細ページのスタイル*/
 .content{
   /*max-width: 632px;*/
   max-width: 784px;
@@ -65,7 +69,7 @@ a{
 	color:#8E8E8E;
 }
 
-/*詳細ページのメインイメージ*/
+/*作品・ニュース詳細ページのメインイメージ*/
 #main .topimg {
   margin-bottom: 16px;
 }
@@ -89,13 +93,6 @@ a{
 .col{
   margin-top: 54px;
 }
-
-/*ニュース詳細ページの記事エリア*/
-.news-area{
-  max-width: 608px;
-  margin-left: 76px;
-}
-
 
 /*サイドバー全般*/
 #side{
@@ -121,20 +118,12 @@ a{
     height: auto;
 }
 
-/*ニュース記事のサイドバー*/
-.side-content{
-  width: 240px;
-}
-.top-heading{
-  margin-top: 0px !important;
-}
-
+/*最近の投稿リスト*/
 .recently li{
   list-style: none;
   border-bottom: solid 1px #c7b299;
   padding-top: 6px;
 }
-
 .recently ul{
   padding-left: 0px;
 }
@@ -173,6 +162,8 @@ a{
   border: 1px solid #3498db;
   color: #fff;
 }
+
+/*----------個別パーツ----------*/
 
 /*プロフィールページのスタイル*/
 .profile{
@@ -220,6 +211,20 @@ a{
   overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
 }
 
+/*ニュース詳細ページの記事エリア*/
+.news-area{
+  max-width: 608px;
+  margin-left: 76px;
+}
+
+/*ニュース詳細のサイドバー*/
+.side-content{
+  width: 240px;
+}
+.top-heading{
+  margin-top: 0px !important;
+}
+
 footer{
   margin-top: 56px;
 }
@@ -258,7 +263,203 @@ footer{
 	display:block;
 }
 
-/*トップページスライダー用スタイル*/
+/* レスポンシブデザイン用の指定 */
+@media screen and (min-width:1200px) {
+
+	.container img{
+		height:262.5px;
+			width:350px;
+		object-fit:cover;
+	}
+}
+
+@media screen and (min-width:993px) and (max-width:1199px){
+
+	.container img{
+		height:217.5px;
+		width:290px;
+		object-fit:cover;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+	.container img{
+		height:157.5px;
+		width:210px;
+		object-fit:cover;
+	}
+	.cell{
+	max-width:140px;
+	}
+	.cell img{
+		width:140px;
+		height:140px;
+		object-fit:cover;
+	}
+	#side{
+		width:38%;
+		padding-right:32px;
+		padding-left:32px;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+	.container img{
+		height:180px;
+		width:240px;
+		object-fit:cover;
+	}
+	.cell{
+	max-width:120px;
+	}
+	.cell img{
+		width:120px;
+		height:120px;
+		object-fit:cover;
+	}
+   #news{
+    max-width: 100%;
+    margin: auto;
+    margin:0px 16px 0px 16px;
+  }
+	.news-img img{
+		max-width: 90%;
+		max-height: auto;
+		margin: 16px 32px 16px 32px;
+	}
+	.news-summary {
+    width: 50%;
+    max-height: auto;
+    margin: 16px 0px 16px 0px;
+    padding: 0px 16px 0px 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+	#side{
+		width:34%;
+		padding-right:32px;
+		padding-left:32px;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:575px){
+  /*画面サイズが320〜559pxまではここのレイアウトを適用（スマホ）*/
+  #main{
+    display: block;
+  }
+  #main .topimg{
+    margin-top: 24px;
+  }
+
+.logo img{
+	width: 95px;
+	height:auto;
+	}
+
+	/*グローバルナビ*/
+	#globalnav .nav-link{
+	  font-size: 18px;
+	}
+
+   /*コンテンツページ・サイドイバーの設定*/
+  #side{
+    max-width: 100%;
+    /*max-width: 240px;*/
+    margin: auto;
+    padding: 0px 16px 0px 16px;
+    margin-top: 40px;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+ /*コンテンツページ・コンテンツエリアのマージン*/
+  .content{
+    margin:0px 16px 0px 16px;
+  }
+ /*コンテンツページ・コンテンツエリアの横幅*/
+  .content-area{
+    max-width: 100%;
+    margin:auto;
+  }
+
+ /*コンテンツページ下部のレコメンドイメージ*/
+  .recommend{
+    display: block;
+  }
+
+	.cell{
+	    max-width:100%;
+		margin-bottom: 16px;
+		}
+
+	.cell img{
+		width: 100% ;
+		height: auto;
+		}
+
+	/*ニュース一覧ページ全体スタイル*/
+  #news{
+    max-width: 100%;
+    margin: auto;
+    padding:0px 16px 0px 16px;
+  }
+
+  /*ニュース一覧ページ、フレックス解除*/
+  .news-content{
+    display: block;
+		margin:auto;
+  }
+  /*ニュース一覧ページ、サマリーのスタイル*/
+  .news-summary{
+    max-width: 100%;
+    max-height: 240px;
+    margin: 16px 0px 32px 0px;
+    padding: 0px 16px 0px 16px;
+    text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
+    overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
+  }
+
+  /*ニュースページ、コンテンツエリアの横幅*/
+  .news-area{
+    max-width: 100%;
+    margin:auto;
+  }
+  /*ニュースページ、サイドコンテンツの横幅*/
+  .side-content {
+      width: 100%;
+  }
+
+  /*ニュースページ、画像の横幅をディスプレイに合わせる*/
+  .news-img{
+    max-width: 100%;
+		height: auto;
+		margin:auto;
+    padding: 16px 0px 16px 0px;
+		text-align:center;
+  }
+  .row{
+    display: block!important;
+  }
+
+/*プロフィールページの左右余白*/
+  .profile{
+    margin: 0px 16px;
+  }
+ .profile-img {
+	 max-width:100%;
+     height: auto;
+    margin: auto;
+    margin-top: 15px;
+	 padding: 0px 16px 0px 16px;
+    overflow: hidden;
+	}
+}
+/*------トップページスライダー用スタイル------*/
  *{
   margin: 0;
   padding: 0;
@@ -416,225 +617,4 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-70%, -50%)rotate(135deg);
-}
-
-/* レスポンシブデザイン用の指定 */
-@media screen and (min-width:1200px) {
-
-	.container img{
-		height:262.5px;
-			width:350px;
-		object-fit:cover;
-	}
-}
-
-@media screen and (min-width:993px) and (max-width:1199px){
-
-	.container img{
-		height:217.5px;
-		width:290px;
-		object-fit:cover;
-	}
-}
-
-@media screen and (min-width:768px) and (max-width:992px){
-	.container img{
-		height:157.5px;
-		width:210px;
-		object-fit:cover;
-	}
-	.cell{
-	max-width:140px;
-	}
-	.cell img{
-		width:140px;
-		height:140px;
-		object-fit:cover;
-	}
-	#side{
-		width:38%;
-		padding-right:32px;
-		padding-left:32px;
-	}
-}
-
-@media screen and (min-width:576px) and (max-width:767px){
-	.container img{
-		height:180px;
-		width:240px;
-		object-fit:cover;
-	}
-	.cell{
-	max-width:120px;
-	}
-	.cell img{
-		width:120px;
-		height:120px;
-		object-fit:cover;
-	}
-   #news{
-    max-width: 100%;
-    margin: auto;
-    margin:0px 16px 0px 16px;
-  }
-	.news-img img{
-		max-width: 90%;
-		max-height: auto;
-		margin: 16px 32px 16px 32px;
-	}
-	.news-summary {
-    width: 50%;
-    max-height: auto;
-    margin: 16px 0px 16px 0px;
-    padding: 0px 16px 0px 16px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-	#side{
-		width:34%;
-		padding-right:32px;
-		padding-left:32px;
-	}
-}
-
-
-@media screen and (min-width:560px) and (max-width:959px){
-/*画面サイズが560〜959pxまではこのレイアウトを適用（タブレット）*/
-
-/*img{
-  max-width: 100%;
-  height: auto;
-}*/
-
-}
-
-@media screen and (min-width:320px) and (max-width:575px){
-  /*画面サイズが320〜559pxまではここのレイアウトを適用（スマホ）*/
-  #main{
-    display: block;
-  }
-  #main .topimg{
-    margin-top: 24px;
-  }
-
-.logo img{
-	width: 95px;
-	height:auto;
-	}
-
-/*グローバルナビ*/
-#globalnav .nav-link{
-  font-size: 18px;
-}
-
-   /*コンテンツページ・サイドイバーの設定*/
-  #side{
-    max-width: 100%;
-    /*max-width: 240px;*/
-    margin: auto;
-    padding: 0px 16px 0px 16px;
-    margin-top: 40px;
-  }
-
-  img{
-    max-width: 100%;
-    height: auto;
-  }
-
-/*.container img{
-		max-height:373.5px;
-		max-width:498px;
-		object-fit:cover;
-	}*/
-
- /*コンテンツページ・コンテンツエリアのマージン*/
-  .content{
-    margin:0px 16px 0px 16px;
-  }
- /*コンテンツページ・コンテンツエリアの横幅*/
-  .content-area{
-    max-width: 100%;
-    margin:auto;
-  }
-
-  /*コンテンツページ下部のサブイメージ*/
-  .sub_img{
-    display: block;
-    max-width: 90%;
-    height: auto;
-  /* justify-content: space-between;*/
-    padding-left:10px;
-    padding-right:10px;
-  }
-
- /*コンテンツページ下部のレコメンドイメージ*/
-  .recommend{
-    display: block;
-  }
-
-.cell{
-    max-width:100%;
-	margin-bottom: 16px;
-	}
-
-.cell img{
-	width: 100% ;
-	height: auto;
-	}
-
-/*ニュース一覧ページ全体スタイル*/
-  #news{
-    max-width: 100%;
-    margin: auto;
-    padding:0px 16px 0px 16px;
-  }
-
-  /*ニュース一覧ページ、フレックス解除*/
-  .news-content{
-    display: block;
-	margin:auto;
-  }
-  /*ニュース一覧ページ、サマリーのスタイル*/
-  .news-summary{
-    max-width: 100%;
-    max-height: 240px;
-    margin: 16px 0px 32px 0px;
-    padding: 0px 16px 0px 16px;
-    text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
-    overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
-  }
-
-  /*ニュースページ、コンテンツエリアの横幅*/
-  .news-area{
-    max-width: 100%;
-    margin:auto;
-  }
-  /*ニュースページ、サイドコンテンツの横幅*/
-  .side-content {
-      width: 100%;
-  }
-
-  /*ニュースページ、画像の横幅をディスプレイに合わせる*/
-  .news-img{
-    max-width: 100%;
-	height: auto;
-	margin:auto;
-    padding: 16px 0px 16px 0px;
-	text-align:center;
-  }
-  .row{
-    display: block!important;
-  }
-
-/*プロフィールページの左右余白*/
-  .profile{
-    margin: 0px 16px;
-  }
- .profile-img {
-	 max-width:100%;
-     height: auto;
-    margin: auto;
-    margin-top: 15px;
-	 padding: 0px 16px 0px 16px;
-    overflow: hidden;
 }
