@@ -92,7 +92,12 @@ a{
 
 	.col-md-4{
 		margin-top:15px;
+		filter:drop-shadow(2px 4px 6px darkgray);
 	}
+
+	.col-sm-6{
+		filter:drop-shadow(2px 4px 6px darkgray);
+}
 
 /*作品・ニュース詳細メインエリア*/
 #main{
