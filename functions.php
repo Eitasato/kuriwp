@@ -4,7 +4,6 @@ function my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 ?>
-
 <?php
 	// サイトナビゲーションメニュー
 	register_nav_menus(array(
@@ -15,9 +14,7 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 	//エディタ用スタイルシート
 	add_editor_style();
 ?>
-
 <?php add_theme_support('post-thumbnails'); ?>
-
 <?php
 function twpp_enqueue_scripts() {
   wp_enqueue_script(
