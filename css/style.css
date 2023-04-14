@@ -3,7 +3,7 @@
 /*ページネーション*/
 
 .pagi-nation {
-	margin: 24px 0px 0px;	
+	margin: 24px 0px 0px;
 }
 
 .pagi-nation > ul {
@@ -385,7 +385,7 @@ footer{
 	.news-img img{
 	max-width:392px;
 	height:auto;
-}	
+}
 }
 
 @media screen and (min-width:576px) and (max-width:767px){
@@ -409,8 +409,8 @@ footer{
     margin:0px 16px 0px 16px;
   }
 	.news-img img{
-		max-width: 95%;
-		max-height: auto;
+		max-width: 100%;
+		height: auto;
 		/**margin: 16px 32px 16px 32px;**/
 	}
 	.news-summary {
@@ -425,7 +425,7 @@ footer{
 		width:34%;
 		padding-right:32px;
 		padding-left:32px;
-	}	
+	}
 }
 
 @media screen and (min-width:320px) and (max-width:575px){

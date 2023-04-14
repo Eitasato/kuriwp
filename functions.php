@@ -10,7 +10,6 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 							'nav' => 'グロナビ',
 							'snav' => 'サイドナビ'));
 	register_nav_menus(array('fnav' => 'フッターナビ'));
-
 	//エディタ用スタイルシート
 	add_editor_style();
 ?>

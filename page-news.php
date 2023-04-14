@@ -22,8 +22,8 @@ if($wp_query->have_posts()): while($wp_query->have_posts()): $wp_query->the_post
     </div>
 	<div class="news-summary">
 		<h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
-		<p><?php the_time('Y/m/d') ?></p>
-		<p><?php the_excerpt(); ?></p>
+		<!-- <p> <//?php the_time('Y/m/d') ?></p>
+		<p><//?php the_excerpt(); ?></p> -->
 	</div>
 	</div>
 <!-- ループおわり -->
