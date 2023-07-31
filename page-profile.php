@@ -11,29 +11,43 @@
 
 卒業後は松本に残りカンデラゲストハウスや浅間温泉下宿 篶竹荘 / 第2ペンギン荘を運営しながら、イラストレーターとしても経験を重ね、現在は画業を活動の中心としている。
 
-雑誌の連載や商品パッケージのイラストの他、個人様からのさまざまな制作依頼も引き受けており、依頼人様の想いをくみ取る事を大切にしながら仕事をしている。
+雑誌の連載や商品パッケージのイラストの他、似顔絵や風景画など個人の方からもさまざまな制作依頼を引き受けており、依頼人様の想いをくみ取る事を大切にしながら仕事をしている。
 
 趣味は旅、登山、サイクリング。旅先や日常生活での事をイラスト日記に描くのはライフワークの一つで、旅先でのスケッチおよび旅日記の展覧会は国内外の各地で行っている。
 
 2022年、ニュージーランドへ移住。小さな奇跡の積み重ねが導く予想外な人生の展開を楽しもうと思っている。
 </p>
-    <h3 class="prof-header">KURIYA Satoko</h3>
+    <h3 class="prof-header">KURIYA Satoko (Kuri)</h3>
     <p>I was born in Japan in 1988.
 
-My major in university was biology, so I am good at observing creatures carefully and sketching them.
+My major in university was Biology, so I am good at observing creatures carefully and sketching them.
 
-After finishing my master degree program in university in 2013, I started my career as an artist while working at Candela Guest House.
+After finishing my master's degree program in Shinshu university in 2013, I started my career as an artist while working at Candela Guest House, which was a backpackers that I ran with my friends in Matsumoto, Nagano, Japan.
 
-​My works are mainly portrait and landscape painting with a warm touch of watercolors, but also I do printmaking, mural painting and so on.
+I have drawn a wide range of pictures from little illustrations to a big mural. My main medium is watercolour, but I use acrylics, and do print making as well.
 
-I love trekking, cycling and traveling. Drawing visual journals to capture things about my daily life and travel is one of my life's work and I like to share it with other people. I had exhibitions of my travel sketches in many places in Japan and Taiwan.
+As I am interested in travel and nature, I like to draw visual journals that capture things that happened on my travels and sketch natural scenery that I saw in daily life. I also draw portraits and design things like packages and maps by request. I am glad when my art makes people happy.
 
-I moved from Japan to New Zealand in 2022. I want to enjoy the unexpected life led by heaps of little miracles.
+I moved from Japan to New Zealand in 2022. I appreciate all of the people and things that create my wonderful unexpected life.
 </p>
 
-        <h4 class="prof-header">主な仕事内容</h4>
-
+        <h4 class="prof-header">主な仕事内容 / Major works I have created</h4>
+		<p>▼Click the link for some examples▼</p>
         <ul>
+			 <style>
+    li {
+      padding: 20px 0;
+    }
+  </style>
+			<li><a href="/2022/10/02/cover-illustration-for-magazine/">「M’s Life（信濃毎日新聞松本専売所）」表紙絵連載（2016～2021年）/ Magazine "M's Life" cover illustrations（2016～2021）</a></li>
+			<li><a href="/2022/10/05/travel-journal-for-moto-touring/">「MOTOツーリング（内外出版社）」旅する絵描きの想筆紀行連載（2018年～）/ Magazine "MOTO Touring" travel journal（2018～）</a></li>
+			<li><a href="/tag/landscape/">風景画 / Landscape</a></li>
+			<li><a href="/tag/portrait/">似顔絵 / Portrait</a></li>
+			<li><a href="/tag/business-card/">名刺作成 / Business card</a></li>
+			<li><a href="/tag/はんこ-stamp/">消しゴムはんこ / Stamp</a></li>
+			<li><a href="/tag/package/">パッケージデザイン / Package design</a></li>
+        </ul>
+<!--        <ul>
 			<li>「M’s Life（信濃毎日新聞松本専売所）」表紙絵連載（2016～2021年）</li>
 			<li>「MOTOツーリング（内外出版社）」旅する絵描きの想筆紀行連載（2018年～）</li>
 			<li>風景画</li>
@@ -41,11 +55,14 @@ I moved from Japan to New Zealand in 2022. I want to enjoy the unexpected life l
 			<li>名刺作成</li>
 			<li>消しゴムはんこ制作</li>
 			<li>パッケージデザイン</li>
-        </ul>
+        </ul> -->
 
-        <h4 class="prof-header">ご依頼について</h4>
-        <p>お仕事についてのご依頼・ご相談をいただける場合はContactフォームよりEメールをお送り下さい。
-内容を確認後、折り返しお返事させていただきます。どうぞよろしくお願い申し上げます。</p>
-        </article>
+        <h4 class="prof-header">ご依頼について / Enquiry</h4>
+<p>お仕事についてのご依頼・ご相談をいただける場合は<a href="/contact/">Contactフォーム</a>よりEメールをお送り下さい。
+内容を確認後、折り返しお返事させていただきます。どうぞお気軽にご連絡ください。
+
+If you have any enquiries about commission work, please feel free to send a message from <a href="/contact/"> the contact form</a>.
+</p>
+</article>
   </main>
 <?php get_footer(); ?>
