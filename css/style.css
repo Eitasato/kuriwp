@@ -502,7 +502,7 @@ footer{
   .news-summary{
     max-width: 100%;
     max-height: 240px;
-    margin: 16px 0px 32px 0px;
+    margin: 0px 0px 64px 0px;
     padding: 0px 16px 0px 16px;
     text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
     overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
