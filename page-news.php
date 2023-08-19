@@ -21,7 +21,7 @@ if($wp_query->have_posts()): while($wp_query->have_posts()): $wp_query->the_post
 		<a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url('full'); ?>" width="392px" height="240px" alt=""></a>
     </div>
 	<div class="news-summary">
-		<h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+		<h4 class="news-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
 		<!-- <p> <//?php the_time('Y/m/d') ?></p>
 		<p><//?php the_excerpt(); ?></p> -->
 	</div>

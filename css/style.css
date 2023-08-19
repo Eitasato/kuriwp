@@ -507,6 +507,11 @@ footer{
     text-overflow: ellipsis;/*文字数が長い場合は...で省略*/
     overflow: hidden;/*要素の内容（文字数等）が多すぎた場合の扱い方。隠したりスクロールしたり*/
   }
+	
+	/*ニュース一覧ページ、タイトルのフォントサイズ変更*/
+	h4.news-title{
+		font-size: 20px;
+	}
 
   /*ニュースページ、コンテンツエリアの横幅*/
   .news-area{
