@@ -31,14 +31,10 @@ As I am interested in travel and nature, I like to draw visual journals that cap
 I moved from Japan to New Zealand in 2022. I appreciate all of the people and things that create my wonderful unexpected life.
 </p>
 
-        <h4 class="prof-header">主な仕事内容 / Major works I have created</h4>
+<h4 class="prof-header">主な仕事内容 / Major works I have created</h4>
 		<p>▼Click the link for some examples▼</p>
-        <ul>
-			 <style>
-    li {
-      padding: 20px 0;
-    }
-  </style>
+		<div  class="major-works">
+			<ul>
 			<li><a href="/2022/10/02/cover-illustration-for-magazine/">「M’s Life（信濃毎日新聞松本専売所）」表紙絵連載（2016～2021年）/ Magazine "M's Life" cover illustrations（2016～2021）</a></li>
 			<li><a href="/2022/10/05/travel-journal-for-moto-touring/">「MOTOツーリング（内外出版社）」旅する絵描きの想筆紀行連載（2018年～）/ Magazine "MOTO Touring" travel journal（2018～）</a></li>
 			<li><a href="/tag/landscape/">風景画 / Landscape</a></li>
@@ -47,6 +43,7 @@ I moved from Japan to New Zealand in 2022. I appreciate all of the people and th
 			<li><a href="/tag/はんこ-stamp/">消しゴムはんこ / Stamp</a></li>
 			<li><a href="/tag/package/">パッケージデザイン / Package design</a></li>
         </ul>
+		</div>
 <!--        <ul>
 			<li>「M’s Life（信濃毎日新聞松本専売所）」表紙絵連載（2016～2021年）</li>
 			<li>「MOTOツーリング（内外出版社）」旅する絵描きの想筆紀行連載（2018年～）</li>
