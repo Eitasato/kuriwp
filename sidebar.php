@@ -7,6 +7,9 @@
 Born in 1988.
 Live in New Zealand since 2022.
 Love nature, travel, creativity.</p>
+<p>
+	<a href="https://www.facebook.com/illustrator.kuri">Facebook</a> / <a href="https://www.instagram.com/illustrator.kuri/">Instagram</a><br>
+	@illustrator.kuri</p>
   <div class="tag">
 	  <h3>Tag</h3>
 	  <ul>
