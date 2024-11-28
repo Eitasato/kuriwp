@@ -2,7 +2,11 @@
 <!--メインエリア-->
   <div id="wrapper">
     <div class="container">
-      <div class="row">
+		<div>
+			<?php get_the_category(); ?>
+			<h3 class="tag-archive"><span class="tag-title">#<?php single_tag_title();?></span>の作品一覧</h3>
+		</div>
+		<div class="row">
 		<?php
 		$paged = get_query_var('paged', 1); // ページ送り用記述
 		$tag = get_queried_object();
@@ -48,7 +52,21 @@
 	wp_reset_postdata();?>
 	</div><!-- /pagination -->
 	  <!--/メインエリア-->
-	  </div>
+      <!--/ここにタグ一覧を追加-->
+			   <div class="tag">
+	  <h3>Tag</h3>
+	<p>下記のタグをクリックすると作品を絞込検索できます - Click on a tag below to see other types of work - </p>
+	  <ul>
+		  <?php
+		  $term_list = get_terms('post_tag');
+		  $result_list = [];
+		  foreach ($term_list as $term) {
+			  $u = (get_term_link( $term, 'post_tag' ));
+			  echo "<li><a href='".$u."'>".$term->name."</a></li>";
+		  }
+		  ?>
+	  </ul>
+  </div>
 </div>
-
+</div>
 <?php get_footer(); ?>

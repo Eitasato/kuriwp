@@ -201,6 +201,14 @@ a{
 }
 
 /*タグ（コンテンツ記事のサイドバー内）*/
+.tag-archive{
+	margin-top: 16px;
+}
+.tag-title{
+	background-color: #c7b299;
+	border-radius: 3px;
+	padding: 0 .5em;
+}
 .tag ul {
   margin: 0;
   padding: 0;
