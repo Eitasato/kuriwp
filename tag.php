@@ -55,8 +55,8 @@
       <!--/ここにタグ一覧を追加-->
 			   <div class="tag">
 	  <h3>Tag</h3>
-	<p>下記のタグをクリックすると作品を絞込検索できます - Click on a tag below to see other types of work - </p>
-	  <ul>
+	<p>下記のタグをクリックすると作品を絞込検索できます <br>- Click on a tag below to see other types of work - </p>
+	  <ul style="display: flex; flex-wrap: wrap;">
 		  <?php
 		  $term_list = get_terms('post_tag');
 		  $result_list = [];
