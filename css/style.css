@@ -207,6 +207,7 @@ a{
 .tag-title{
 	background-color: #c7b299;
 	border-radius: 3px;
+	margin-right: 3px;
 	padding: 0 .5em;
 }
 .tag ul {
